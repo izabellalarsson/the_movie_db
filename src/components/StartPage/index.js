@@ -21,7 +21,7 @@ const StartPage = () => {
           onChange={handleChange}
           value={inputValue}
         />
-        <Link to={`results/${inputValue}`}>
+        <Link to={inputValue !== '' ? `results/${inputValue}` : '/'}>
           <button type="submit">Find movie</button>
         </Link>
       </SearchFiled>
