@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  width: 100vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F8F4F4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.link {
+  font-family: 'Ruda', sans-serif;
+  color: #FB3B49;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #CC0213;
+}
+
+h1, h2, h3 {
+  font-family: 'Ruda', sans-serif;
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+h3 {
+  font-size: 18pt;
+  color: #68120E;
+}
